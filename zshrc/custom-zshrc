@@ -39,7 +39,8 @@ alias proj='cd ~/Projects'
 alias wproj='cd ~/Projects/work'
 alias lproj='cd ~/Projects/learn'
 alias bproj='cd ~/Projects/build'
-alias cproj='cd ~/Projects/contrib/'
+alias cproj='cd ~/Projects/contrib'
+alias caout='pactl load-module module-combine-sink'
 
 # Utility Aliases
 alias camon='sudo modprobe uvcvideo'

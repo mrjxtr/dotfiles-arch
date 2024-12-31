@@ -28,10 +28,10 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'm:{A-Z}={a-z}'
 alias nv="nvim"
 alias cfgchad="cd ~/.config/nvim/ && nvim ."
 alias cfgnvim="nv ~/.config/nvim/init.vim"
+alias cfgzsh="cd ~/.config/zshrc/ && nvim ."
 alias cfgvim="nv ~/.vimrc"
 alias cfgp10k="nv ~/.p10k.zsh"
 alias cfgtmux="nv ~/.tmux.conf"
-alias cfgzsh="nv ~/.config/zshrc/custom-zshrc"
 alias cls="clear"
 alias desk='cd ~/Desktop'
 alias home='cd ~'
@@ -40,11 +40,11 @@ alias wproj='cd ~/Projects/work'
 alias lproj='cd ~/Projects/learn'
 alias bproj='cd ~/Projects/build'
 alias cproj='cd ~/Projects/contrib'
-alias caout='pactl load-module module-combine-sink'
 
 # Utility Aliases
 alias camon='sudo modprobe uvcvideo'
 alias camoff='sudo modprobe -r uvcvideo'
+alias caout='pactl load-module module-combine-sink'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

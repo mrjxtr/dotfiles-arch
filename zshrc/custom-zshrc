@@ -26,6 +26,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'm:{A-Z}={a-z}'
 
 # Aliases
 alias nv="nvim"
+alias code="cd ~/Projects && code ."
+alias cursor="cd ~/Projects && cursor . > /dev/null 2>&1 &"
 alias cfgchad="cd ~/.config/nvim/ && nvim ."
 alias cfgnvim="nv ~/.config/nvim/init.vim"
 alias cfgzsh="cd ~/.config/zshrc/ && nvim ."
@@ -33,8 +35,8 @@ alias cfgvim="nv ~/.vimrc"
 alias cfgp10k="nv ~/.p10k.zsh"
 alias cfgtmux="nv ~/.tmux.conf"
 alias cls="clear"
-alias desk='cd ~/Desktop'
 alias home='cd ~'
+alias desk='cd ~/Desktop'
 alias proj='cd ~/Projects'
 alias wproj='cd ~/Projects/work'
 alias lproj='cd ~/Projects/learn'
@@ -42,9 +44,9 @@ alias bproj='cd ~/Projects/build'
 alias cproj='cd ~/Projects/contrib'
 
 # Utility Aliases
-alias camon='sudo modprobe uvcvideo'
-alias camoff='sudo modprobe -r uvcvideo'
-alias caout='pactl load-module module-combine-sink'
+alias camon='sudo modprobe uvcvideo' # turn camera on
+alias camoff='sudo modprobe -r uvcvideo' # turn camera off
+alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

@@ -6,5 +6,5 @@ echo -e "\n🐍 Python Version:" && python --version && \
 echo -e "\n🦫 Go Version:" && go version && \
 echo -e "\n🦀 Rust Version:" && rustc --version && \
 echo -e "\n🌐 Node Version:" && node --version && \
-echo -e "\n📘 TypeScript Version:" && tsc --version
-echo -e "\n@MRJXTR - CHECK VERSIONS: DONE" && \
+echo -e "\n📘 TypeScript Version:" && tsc --version && \
+echo -e "\n@MRJXTR - CHECK VERSIONS: DONE"

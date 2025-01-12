@@ -26,11 +26,9 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'm:{A-Z}={a-z}'
 
 # Aliases
 alias nv="nvim"
-alias code="cd ~/Projects && code ."
-alias cursor="cd ~/Projects && cursor . > /dev/null 2>&1 &"
 alias cfgchad="cd ~/.config/nvim/ && nvim ."
-alias cfgnvim="nv ~/.config/nvim/init.vim"
 alias cfgzsh="cd ~/.config/zshrc/ && nvim ."
+alias cfgnvim="nv ~/.config/nvim/init.vim"
 alias cfgvim="nv ~/.vimrc"
 alias cfgp10k="nv ~/.p10k.zsh"
 alias cfgtmux="nv ~/.tmux.conf"

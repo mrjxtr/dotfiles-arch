@@ -46,6 +46,9 @@ alias camon='sudo modprobe uvcvideo' # turn camera on
 alias camoff='sudo modprobe -r uvcvideo' # turn camera off
 alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
 
+# Scripts Aliases
+alias checkversions='~/Projects/.scripts/checkversions'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/mrjxtr/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"

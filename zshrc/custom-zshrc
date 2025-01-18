@@ -47,7 +47,8 @@ alias camoff='sudo modprobe -r uvcvideo' # turn camera off
 alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
 
 # Scripts Aliases
-alias checkv='~/Projects/.scripts/checkversions'
+alias checkv='~/Projects/.scripts/checkversions.sh'
+alias codext='~/Projects/.scripts/vscustom.sh'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

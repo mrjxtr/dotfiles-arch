@@ -49,7 +49,7 @@ alias caout='pactl load-module module-combine-sink' # create a combined audio ch
 # Scripts Aliases
 alias checkv='~/Projects/.scripts/checkversions.sh'
 alias codext='~/Projects/.scripts/vscustom.sh'
-#
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/mrjxtr/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"

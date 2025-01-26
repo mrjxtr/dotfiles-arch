@@ -45,6 +45,7 @@ alias cproj='cd ~/Projects/contrib'
 alias camon='sudo modprobe uvcvideo' # turn camera on
 alias camoff='sudo modprobe -r uvcvideo' # turn camera off
 alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
+alias lckr='faillock --user $(whoami) --reset' # Unlock failed password attempts
 
 # Scripts Aliases
 alias checkv='~/Projects/.scripts/cmd/checkversions.sh'

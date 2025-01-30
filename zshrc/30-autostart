@@ -11,7 +11,9 @@ cat ~/.cache/wal/sequences
 # Fastfetch
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
-    # fastfetch --config examples/13
+    fastfetch --config examples/8 # Min with system
+    # fastfetch --config examples/9 # Min with memory
+    # fastfetch --config examples/22 # Looks Cool
 else
     echo
     if [ -f /bin/qtile ]; then

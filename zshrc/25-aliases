@@ -6,9 +6,7 @@
 # General
 # -----------------------------------------------------
 alias c='clear'
-alias nf='fastfetch'
-alias pf='fastfetch'
-alias ff='fastfetch'
+alias ff='fastfetch --config examples/22'
 alias ls='eza -a --icons=always'
 alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=1 --icons=always'

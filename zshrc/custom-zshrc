@@ -28,6 +28,8 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'm:{A-Z}={a-z}'
 alias nv="nvim"
 alias cfgchad="cd ~/.config/nvim/ && nvim ."
 alias cfgzsh="cd ~/.config/zshrc/ && nvim ."
+alias cfghypr="cd ~/dotfiles/.config/hypr/conf/ && nvim ."
+alias cfgkitty="cd ~/dotfiles/.config/kitty && nvim ."
 alias cfgnvim="nv ~/.config/nvim/init.vim"
 alias cfgvim="nv ~/.vimrc"
 alias cfgp10k="nv ~/.p10k.zsh"
@@ -46,6 +48,8 @@ alias camon='sudo modprobe uvcvideo' # turn camera on
 alias camoff='sudo modprobe -r uvcvideo' # turn camera off
 alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
 alias lckr='faillock --user $(whoami) --reset' # Unlock failed password attempts
+alias spdtest='speedtest-cli --secure --bytes' # Run an internet speed test
+alias spdtest_share='speedtest-cli --secure --bytes --share' # Run a shareable internet speed test
 
 # Scripts Aliases
 alias checkv='~/Projects/.scripts/cmd/checkversions.sh'

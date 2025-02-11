@@ -4,6 +4,6 @@
 
 ### Wallpaper
 
-![image](./wallpaper/01mrj_wallpaper.jpg)
+![image](./wallpaper/01mrj_wp.jpg)
 
 

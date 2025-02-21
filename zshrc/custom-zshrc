@@ -47,11 +47,12 @@ alias cproj='cd ~/Projects/contrib'
 alias camon='sudo modprobe uvcvideo' # turn camera on
 alias camoff='sudo modprobe -r uvcvideo' # turn camera off
 alias caout='pactl load-module module-combine-sink' # create a combined audio chanel
-alias lckr='faillock --user $(whoami) --reset' # Unlock failed password attempts
+alias unlckr='faillock --user $(whoami) --reset' # Unlock failed password attempts
 alias spdtest='speedtest-cli --secure --bytes' # Run an internet speed test
 alias spdtest_share='speedtest-cli --secure --bytes --share' # Run a shareable internet speed test
 
 # Scripts Aliases
+alias checku='~/Projects/.scripts/cmd/checkupdates.sh'
 alias checkv='~/Projects/.scripts/cmd/checkversions.sh'
 alias codext='~/Projects/.scripts/cmd/vscustom.sh'
 alias ginit='~/Projects/.scripts/cmd/initrepo.sh'

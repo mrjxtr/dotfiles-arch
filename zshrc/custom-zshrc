@@ -24,20 +24,22 @@ compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'm:{A-Z}={a-z}'
 
 
-# Aliases
+# Config Aliases
 alias nv="nvim"
-alias cfgchad="cd ~/.config/nvim/ && nvim ."
-alias cfgzsh="cd ~/.config/zshrc/ && nvim ."
-alias cfghypr="cd ~/dotfiles/.config/hypr/conf/ && nvim ."
-alias cfgkitty="cd ~/dotfiles/.config/kitty && nvim ."
-alias cfgnvim="nv ~/.config/nvim/init.vim"
+alias cfgchad="cd ~/.config/nvim && nvim"
+alias cfgzsh="cd ~/.config/zshrc && nvim"
+alias cfghypr="cd ~/.config/hypr/conf && nvim"
+alias cfgwbar="cd ~/.config/waybar && nvim"
+alias cfgkitty="cd ~/.config/kitty && nvim"
 alias cfgvim="nv ~/.vimrc"
 alias cfgp10k="nv ~/.p10k.zsh"
 alias cfgtmux="nv ~/.tmux.conf"
-alias cls="clear"
-alias home='cd ~'
+
+# Navigation Aliases
+alias c="clear"
 alias desk='cd ~/Desktop'
 alias proj='cd ~/Projects'
+alias sproj='cd ~/Projects/.scripts && nvim'
 alias wproj='cd ~/Projects/work'
 alias lproj='cd ~/Projects/learn'
 alias bproj='cd ~/Projects/build'

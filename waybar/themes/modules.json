@@ -20,7 +20,7 @@
       "default": ""
     },
     "persistent-workspaces": {
-            "*": 2
+      "*": 2
     }
   },
 
@@ -44,12 +44,11 @@
   // Hyprland Window
   "hyprland/window": {
     "rewrite": {
-      //(.*) - Brave": "$1",
-      //(.*) - Chromium": "$1",
-      //(.*) - Brave Search": "$1",
-      //(.*) - Outlook": "$1",
-      //(.*) Microsoft Teams": "$1", 
-      "(.{50}).*": "$1..."
+      "(.*) - Brave": "$1",
+      "(.*) - Chromium": "$1",
+      "(.*) - Brave Search": "$1",
+      "(.*) - Outlook": "$1",
+      "(.*) Microsoft Teams": "$1"
     },
     "separate-outputs": true
   },
@@ -66,7 +65,7 @@
     "format": ""
   },
 
-    // Tools
+  // Tools
   "custom/tools": {
     "format": "",
     "tooltip-format": "Tools"
@@ -228,7 +227,7 @@
 
   // Clock
   "clock": {
-        "format": "{:%R | %a %Y.%Om.%Od}",
+    "format": "{:%R | %Y.%Om.%Od %a}",
     "on-click": "flatpak run com.ml4w.calendar",
     "timezone": "",
     "tooltip": false
@@ -294,10 +293,7 @@
   // Group Links
   "group/links": {
     "orientation": "horizontal",
-    "modules": [
-      "custom/chatgpt",
-      "custom/empty"
-    ]
+    "modules": ["custom/chatgpt", "custom/empty"]
   },
 
   // Group Settings
@@ -328,7 +324,7 @@
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
     "on-click": "~/.config/ml4w/settings/networkmanager.sh",
-    "on-click-right": "~/.config/ml4w/scripts/nm-applet.sh toggle",
+    "on-click-right": "~/.config/ml4w/scripts/nm-applet.sh toggle"
   },
 
   // Battery

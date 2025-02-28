@@ -53,6 +53,13 @@ alias unlckr='faillock --user $(whoami) --reset' # Unlock failed password attemp
 alias spdtest='speedtest-cli --secure --bytes' # Run an internet speed test
 alias spdtest_share='speedtest-cli --secure --bytes --share' # Run a shareable internet speed test
 
+alias tslist='sudo timeshift --list' # List all the backups
+alias tsbak='sudo timeshift --create --comments "stable +- 6 udpdates"' # Create a timeshift backup
+alias tsdel='sudo timeshift --delete --snapshot "$(sudo timeshift --list | grep -oP "(?<=\s)\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}" | head -n 1)"' # Delete the oldest backup
+
+source <(fzf --zsh) # Set-up FZF key bindings (CTRL R for fuzzy history finder)
+alias fzf="fzf --padding 3% --border --reverse --preview 'cat {}'" # Custom fzf ui
+
 # Scripts Aliases
 alias checku='~/Projects/.scripts/cmd/checkupdates.sh'
 alias checkv='~/Projects/.scripts/cmd/checkversions.sh'

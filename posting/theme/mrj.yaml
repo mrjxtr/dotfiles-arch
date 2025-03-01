@@ -1,0 +1,38 @@
+name: mrj
+primary: "#475569"
+secondary: "#94a3b8"
+accent: "#64748b"
+background: "#0f172a"
+surface: "#1e293b"
+error: "#f87171"
+success: "#2a8c74"
+warning: "#facc15"
+
+text_area:
+  cursor: "reverse"
+  cursor_line: "underline"
+  selection: "reverse"
+  gutter: "bold #94a3b8"
+  matched_bracket: "black on #2a8c74"
+
+url:
+  base: "italic #94a3b8"
+  protocol: "bold #64748b"
+
+syntax:
+  json_key: "italic #4f82c2"
+  json_number: "#2a8c74"
+  json_string: "#86a35c"
+  json_boolean: "#86a35c"
+  json_null: "underline #86a35c"
+
+method:
+  get: "underline #2a8c74"
+  post: "italic #94a3b8"
+  put: "bold #94a3b8"
+  delete: "strikethrough #64748b"
+
+# Metedata
+author: Jester Lumacad
+description: A brutalist dark theme with cold gray-blue tones.
+homepage: https://github.com/mrjxtr

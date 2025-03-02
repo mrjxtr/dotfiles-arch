@@ -65,6 +65,7 @@ alias checku='~/Projects/.scripts/cmd/checkupdates.sh'
 alias checkv='~/Projects/.scripts/cmd/checkversions.sh'
 alias codext='~/Projects/.scripts/cmd/vscustom.sh'
 alias ginit='~/Projects/.scripts/cmd/initrepo.sh'
+alias sys-maintain='~/Projects/.scripts/cmd/sysmaintain.sh'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
